@@ -1,0 +1,36 @@
+Do a write up for the followings:? 
+1. Difference between HTTP1.1 vs HTTP2 
+
+HTTP1.1 was released in 1997 and then HTTP2 in 2015 which offered several
+method to decrease the latency,especially when dealing with mobile platform
+and server-intensive graphics and videos.The main feature about HTTP2 which
+makes it faster then HTTP1.1 is the binary framing layer which converts the
+requests/response to binary format which easier to tranfer and faster. 
+
+2. http version history
+
+1991 - 0.9
+1996 - 1.0
+1997 - 1.1
+2015 - 2.0
+2020 - 3.0 
+
+3. List 5 difference between Browser JS(console) vs Nodejs 
+
+a.Browser JS can only be run on browser and Nodejs can run as a standalone
+application
+b.nodejs is light and efficient since its event driven,non-blocking 
+I/O model
+c.nodejs can be used to build independent api's
+d.nodejs files need not be connected to a html file for it to be run like
+in Browser JS
+e.Don't need a Browser to run nodejs just a editor and terminal will do 
+unlike Browser JS  
+
+4. what happens when you type a URL in the address bar in the browser?
+
+The entered URL is processed to DNS to genrate a ip address for the URL 
+entered and sent to the server for a Syn-Ack handhsake and recieve the 
+response codes and the html,css and javaScript files and the browser 
+proccesses them bulding the DOM,CSSOM and attaching the JS file for 
+fuctionality and rendering the final page in our browser.
